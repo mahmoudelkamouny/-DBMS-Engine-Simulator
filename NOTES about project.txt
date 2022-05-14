@@ -1,0 +1,9 @@
+                                Important Notes
+1-you have to run dbApp.init when u start the program to load important vectors (you have to run it one time only)
+2- after finishing insertion call method update_trees_after_insert to updates trees other than clustering one if exists 
+because handling all btrees refrences inside insertion makes it to slow but
+update and delete handles all refrences in it.
+3-Btrees and Rtrees are serialised in the desk and duplicates are handleled
+using overflow vectors and its also saved on the desk by the key name like 
+(overflow of 10).
+
